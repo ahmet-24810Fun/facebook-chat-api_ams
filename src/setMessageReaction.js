@@ -36,6 +36,8 @@ module.exports = function(defaultFuncs, api, ctx) {
       case ":thumbsdown:":
       case ":dislike:":
         reaction = "\uD83D\uDC4E";
+      case ":lovely:":
+          reaction = "U+1F496";
         break;
       default:
         break;
